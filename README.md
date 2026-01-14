@@ -112,13 +112,13 @@ python scripts/05_results_analysis.py
 
 ## 📊 Results & Findings
 
-I compared four regression models. Due to the high noise and weak correlations in the dataset, most models struggled to find a pattern.
+I compared four regression models. The results are as follows:
 
 | Model | RMSE (Error) | R² Score | Training Time |
 | --- | --- | --- | --- |
 | **Gaussian Process** | **0.088** | **0.135** | ~320s |
 | Random Forest | 0.094 | 0.003 | ~30s |
-| MLP (Neural Net) | 0.097 | -0.051 | ~2s |
+| MLP | 0.097 | -0.051 | ~2s |
 | SVR | 0.115 | -0.490 | ~1s |
 
 ### Conclusion
